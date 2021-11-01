@@ -1,0 +1,1 @@
+select_all = 'SELECT * from charactercreator_character;'
