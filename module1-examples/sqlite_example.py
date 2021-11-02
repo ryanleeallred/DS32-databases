@@ -15,9 +15,9 @@ def execute_q(conn, query):
 # run the code below if this file is run as a script from the Command Line
 if __name__ == '__main__':
     conn = connect_to_db()
-    results = execute_q(conn, q.select_all)
+    results = execute_q(conn, q.right_mage_join)
     # results = execute_q(conn, q.select_few)
-    print(results[:5])
+    print(results[:10])
 
 
 
